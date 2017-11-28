@@ -1,6 +1,6 @@
 Login
 
-![alt text] https://github.com/tiaraaurellia/TA_toko/blob/master/Capture.PNG
+![alt text](https://github.com/tiaraaurellia/TA_toko/blob/master/Capture.PNG)
 
 Daftar
 
