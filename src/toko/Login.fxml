@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="392.0" prefWidth="450.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="toko.LoginController">
+   <children>
+      <AnchorPane layoutX="82.0" layoutY="234.0" prefHeight="124.0" prefWidth="288.0" style="-fx-background-color: lightpink;">
+         <children>
+            <JFXButton fx:id="up" layoutX="23.0" layoutY="25.0" onAction="#signup" style="-fx-background-color: lightblue;" text="SIGN UP">
+               <font>
+                  <Font name="Lucida Fax Regular" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="in" layoutX="192.0" layoutY="25.0" onAction="#signin" style="-fx-background-color: lightblue;" text="SIGN IN">
+               <font>
+                  <Font name="Lucida Fax Regular" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="metu" layoutX="118.0" layoutY="62.0" onAction="#exit" style="-fx-background-color: lightblue;" text="EXIT">
+               <font>
+                  <Font name="Lucida Fax Regular" size="14.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="39.0" layoutY="29.0" prefHeight="196.0" prefWidth="373.0" style="-fx-background-color: lightpink;">
+         <children>
+            <Text layoutX="137.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+               <font>
+                  <Font name="Lucida Calligraphy Italic" size="18.0" />
+               </font>
+            </Text>
+            <JFXTextField fx:id="user" layoutX="112.0" layoutY="55.0" />
+            <Text layoutX="140.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+               <font>
+                  <Font name="Lucida Calligraphy Italic" size="18.0" />
+               </font>
+            </Text>
+            <JFXPasswordField fx:id="pass" layoutX="112.0" layoutY="132.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
